@@ -23,11 +23,12 @@ class FacebookApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 8,
         backgroundColor: Colors.white,
-        title: Text(
+        title: const Text(
           "Facebook",
           style: TextStyle(
-            color: Colors.blue[900],
+            color: Colors.blueAccent,
             fontWeight: FontWeight.bold,
             fontSize: 25,
           ),
@@ -35,27 +36,31 @@ class FacebookApp extends StatelessWidget {
         centerTitle: true,
         leading: IconButton(
           onPressed: () {},
-          icon: Icon(
+          icon: const Icon(
             Icons.menu,
-            color: Colors.blue[900],
+            color: Colors.blueAccent,
           ),
         ),
         actions: <Widget>[
           IconButton(
             onPressed: () {},
-            icon: Icon(
+            icon: const Icon(
               Icons.search,
-              color: Colors.blue[900],
+              color: Colors.blueAccent,
             ),
           ),
           IconButton(
             onPressed: () {},
-            icon: Icon(
+            icon: const Icon(
               Icons.message,
-              color: Colors.blue[900],
+              color: Colors.blueAccent,
             ),
           ),
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.add),
       ),
     );
   }
