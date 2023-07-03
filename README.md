@@ -1,4 +1,4 @@
-# flutter_facebook
+# flutter_facebook_lesson
 
 A new Flutter project.
 
